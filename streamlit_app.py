@@ -43,6 +43,7 @@ if prompt := st.chat_input("¡Pregúntame cualquier duda que tengas!"):
         response='''Algunos personajes históricos de Sanxenxo incluyen:
         - Ramón Cabanillas Enríquez: Poeta gallego vinculado a Sanxenxo, fue una figura clave del renacimiento literario gallego, conocido por su obra de inspiración patriótica y social.
         - Luis Rocafort: Pintor gallego, su obra está relacionada con Sanxenxo y la región de Pontevedra. Su estilo se asocia con el paisaje y las costumbres de Galicia.
+        Sanxenxo también se ha destacado por atraer a personajes de relevancia en la actualidad, como la familia real española y empresarios influyentes.
         '''
 
     # Display assistant response in chat message container
