@@ -53,7 +53,7 @@ if prompt := st.chat_input("¡Pregúntame cualquier duda que tengas!"):
         match audio:
             case "playas":
                 st.audio("./resources/playas.mp3",format="audio/mpeg",loop=False)
-            case "personajes":
+            #case "personajes":
                 #st.audio("./resources/personajes.mp3",format="audio/mpeg",loop=False)
         st.markdown(response)
     # Add assistant response to chat history
