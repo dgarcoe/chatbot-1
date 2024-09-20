@@ -34,7 +34,7 @@ if prompt := st.chat_input("¡Pregúntame cualquier duda que tengas!"):
     audio="None"
     if "playas" in prompt:
         audio="playas"
-        response = ''' Sanxenxo es conocido por sus hermosas playas. Aquí tienes tres de las más destacadas:
+        response = '''Sanxenxo es conocido por sus hermosas playas. Aquí tienes tres de las más destacadas:
         - Playa de Silgar: Esta es la playa más famosa y concurrida de Sanxenxo. Situada en el centro de la ciudad, es ideal para quienes buscan comodidad y servicios cercanos.
         - Playa de Areas: Un poco más tranquila que Silgar, esta playa ofrece aguas cristalinas y arena fina. Es perfecta para relajarse y disfrutar de un entorno más natural.
         - Playa de Montalvo: Ubicada en un entorno más rural, esta playa es conocida por su belleza natural y su ambiente más sereno. Es ideal para quienes buscan escapar del bullicio.'''
