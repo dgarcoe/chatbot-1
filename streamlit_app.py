@@ -32,7 +32,7 @@ if prompt := st.chat_input("¡Pregúntame cualquier duda que tengas!"):
 
     response="¡Hola!"
     audio="None"
-    if "playa" in prompt:
+    if (prompt.find("playa")!=-1):
         audio="playas"
         response = '''
         Sanxenxo es conocido por sus hermosas playas. Aquí tienes tres de las más destacadas:
